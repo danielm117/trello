@@ -25,3 +25,6 @@ Route::name('card_store')->post('/trello/board/card', 'BoardController@store');
 Route::name('card_update')->post('/trello/board/card_update/{id}', 'BoardController@update');
 
 Route::name('board')->get('/trello/board/{id}', 'BoardController@show');
+
+Route::get('/trello/token', 'BoardController@create');
+

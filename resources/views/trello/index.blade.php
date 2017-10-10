@@ -16,10 +16,6 @@
         <button type="button"  id ="login" class="btn  btn-success">Get trello authentication</button>
     </a>
 
-    <a href="{{route ('boards')}}">
-        <button type="button"  id ="login" class="btn  btn-success">Get trello boards</button>
-    </a>
-
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
